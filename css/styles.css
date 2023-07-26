@@ -1,34 +1,70 @@
+
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --cornflower: rgba(231, 233, 252, 1);
+  --iris: rgba(77, 90, 229, 1);
+  --navy-blue: rgba(46, 47, 66, 1);
+  --slate: rgba(67, 68, 85, 1);
+  --cloud: rgba(244, 244, 253, 1);
+  --ocean: rgba(64, 75, 191, 1);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
-  color: rgb(46, 47, 66);
+  color: var(--navy-blue);
+}
+
+
+.container {
+ width: 1440px;
 }
 
 .link {
   text-decoration: none;
-  color: rgb(46, 47, 66);
+  display: inline;
+  height: 72px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.16;
   text-transform: uppercase;
+  display: inline-block;
+  margin-top: 24px;
+  margin-left: 156px
+  
+
 }
+
+h1 {
+  display: block;
+height: 600px;
+}
+
+
 
 .button {
   cursor: pointer;
 }
 
 .logo-web {
-  color: rgb(77, 90, 229);
+  color: var(--iris);
 }
 
 .ul.address {
-  color: rgb(67, 68, 85);
+  color: var(--slate);
   line-height: 1.5;
   font-style: normal;
+
+}
+
+.address {
+  display: inline-flex;
+  margin-right: 156;
+  gap: 40px;
 }
 
 .ul {
@@ -38,21 +74,25 @@ body {
 .nav {
   font-weight: 500;
   line-height: 1.5;
+  display: inline-flex;
+padding-left: 76px;
+  gap: 40px
+  
 }
 
 .hero {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  color: rgb(255, 255, 255);
-  background-color: rgb(46, 47, 66);
+  color: var(--white);
+  background-color: var(--navy-blue);
 }
 
 .button.text {
   font-weight: 500;
   line-height: 1.5;
-  color: rgb(255, 255, 255);
-  background-color: rgb(77, 90, 229);
+  color: var(--white);
+  background-color: var(--iris);
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -61,8 +101,8 @@ body {
 .button.text:hover,
 .button.text:focus,
 .button.text:active {
-  color: rgb(77, 90, 229);
-  background-color: rgb(255, 255, 255);
+  color: var(--iris);
+  background-color: var(--white);
 }
 
 .element-header {
@@ -79,35 +119,35 @@ body {
 
 .element-content {
   line-height: 1.5;
-  color: rgb(67, 68, 85);
+  color: var(--slate);
 }
 
 .footer-background-color {
-  background-color: rgb(46, 47, 66);
+  background-color: var(--navy-blue);
 }
 
 .logo-footer {
-  color: rgb(244, 244, 253);
+  color: var(--cloud);
 }
 
 .element-content.footer {
-  color: rgb(244, 244, 253);
+  color: var(--cloud);
 }
 
 .button.menu {
   font-weight: 500;
   line-height: 1.5;
-  color: rgb(77, 90, 229);
-  background-color: rgba(244, 244, 253, 1);
-  border: 1px solid rgba(231, 233, 252, 1);
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
   border-radius: 4px;
 }
 
 .button.menu:hover,
 .button.menu:focus,
 .button.menu:active {
-  color: rgb(255, 255, 255);
-  background-color: rgba(64, 75, 191, 1);
+  color: var(--white);
+  background-color: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
