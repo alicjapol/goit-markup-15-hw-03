@@ -1,0 +1,114 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(46, 47, 66);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(46, 47, 66);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.logo-web {
+  color: rgb(77, 90, 229);
+}
+
+.ul.address {
+  color: rgb(67, 68, 85);
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.nav {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.hero {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 47, 66);
+}
+
+.button.text {
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 90, 229);
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button.text:hover,
+.button.text:focus,
+.button.text:active {
+  color: rgb(77, 90, 229);
+  background-color: rgb(255, 255, 255);
+}
+
+.element-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.section-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+}
+
+.element-content {
+  line-height: 1.5;
+  color: rgb(67, 68, 85);
+}
+
+.footer-background-color {
+  background-color: rgb(46, 47, 66);
+}
+
+.logo-footer {
+  color: rgb(244, 244, 253);
+}
+
+.element-content.footer {
+  color: rgb(244, 244, 253);
+}
+
+.button.menu {
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(77, 90, 229);
+  background-color: rgba(244, 244, 253, 1);
+  border: 1px solid rgba(231, 233, 252, 1);
+  border-radius: 4px;
+}
+
+.button.menu:hover,
+.button.menu:focus,
+.button.menu:active {
+  color: rgb(255, 255, 255);
+  background-color: rgba(64, 75, 191, 1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
