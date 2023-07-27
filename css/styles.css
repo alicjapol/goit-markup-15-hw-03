@@ -26,6 +26,7 @@ body {
   text-decoration: none;
   display: inline;
   height: 72px;
+  color: var(--navy-blue);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -43,8 +44,6 @@ h1 {
   display: block;
 height: 600px;
 }
-
-
 
 .button {
   cursor: pointer;
@@ -74,7 +73,8 @@ height: 600px;
 .nav {
   font-weight: 500;
   line-height: 1.5;
-  display: inline-flex;
+  color: var(--navy-blue);
+    display: inline-flex;
 padding-left: 76px;
   gap: 40px
   
