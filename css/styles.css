@@ -19,7 +19,13 @@ body {
 
 
 .container {
- width: 1440px;
+width: 1158px;
+display: flexbox;
+align-items: center;
+}
+
+.header-flex {
+  display: inline;
 }
 
 .link {
@@ -33,7 +39,7 @@ body {
   font-size: 18px;
   line-height: 1.16;
   text-transform: uppercase;
-  display: inline-block;
+  display: inline;
   margin-top: 24px;
   margin-left: 156px
   
@@ -41,7 +47,7 @@ body {
 }
 
 h1 {
-  display: block;
+
 height: 600px;
 }
 
@@ -57,13 +63,9 @@ height: 600px;
   color: var(--slate);
   line-height: 1.5;
   font-style: normal;
-
-}
-
-.address {
   display: inline-flex;
-  margin-right: 156;
   gap: 40px;
+  justify-content: flex-end;
 }
 
 .ul {
@@ -77,8 +79,10 @@ height: 600px;
     display: inline-flex;
 padding-left: 76px;
   gap: 40px
-  
+
 }
+
+
 
 .hero {
   font-size: 56px;
