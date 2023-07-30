@@ -5,10 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,47 +13,47 @@
       rel="stylesheet"
     />
   </head>
+  <header>
+    <nav>
+      <a href="#" class="link logo">
+        web
+        <span class="logo-studio">studio</span>
+      </a>
+      <ul class="list nav">
+        <li>
+          <a href="./index.html" class="link">Studio</a>
+        </li>
+        <li>
+          <a href="./portfolio.html" class="link">Portfolio</a>
+        </li>
+        <li>
+          <a href="" class="link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <address class="contacts">
+      <ul class="list address">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link contacts">
+            info@devstudio.com
+          </a>
+        </li>
+        <li>
+          <a href="tel:+11(000)111-11-11" class="link contacts">
+            +11 (000) 111-11-11
+          </a>
+        </li>
+      </ul>
+    </address>
+  </header>
   <body>
-    <header class="container header-fleZZ">
-      <nav>
-        <a href="#" class="link logo">
-          <span class="logo-web">web</span>
-          studio
-        </a>
-        <ul class="ul nav">
-          <li>
-            <a href="#" class="link">Studio</a>
-          </li>
-          <li>
-            <a href="portfolio.html" class="link">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contacts" class="link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address>
-        <div class="mail-info">
-        <ul class="ul address">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link">
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:+11(000)111-11-11" class="link">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </div>
-      </address>
-    </header>
-    <main class="container">
+    <main>
       <section class="hero">
-        <h1>Effective Solutions for Your Business</h1>
+        <h1 class="hero-header">Effective Solutions for Your Business</h1>
         <button type="button" class="button text">Order Service</button>
       </section>
-      <div>
-        <ul class="ul">
+      <section>
+        <ul class="list">
           <li>
             <h3 class="element-header">Strategy</h3>
             <p class="element-content">
@@ -87,10 +83,10 @@
             </p>
           </li>
         </ul>
-      </div>
+      </section>
       <section>
         <h2 class="section-header">What are we doing</h2>
-        <ul class="ul">
+        <ul class="list">
           <li>
             <img
               src="./images/monitor.jpg"
@@ -120,10 +116,10 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-team">
         <h2 class="section-header">Our Team</h2>
-        <ul class="ul">
-          <li>
+        <ul class="list">
+          <li class="team">
             <img
               src="./images/team-card-first.jpg"
               alt="smiling worker with thick beard and brown eyes, looking straight at the camera, wearing a blue shirt"
@@ -133,7 +129,7 @@
             <h4 class="element-header">Mark Guerrero</h4>
             <p class="element-content">Product Designer</p>
           </li>
-          <li>
+          <li class="team">
             <img
               src="./images/team-card-second.jpg"
               alt="smiling slim worker looking into the distance, he has blonde hair and is wearing a blue shirt"
@@ -143,7 +139,7 @@
             <h4 class="element-header">Tom Ford</h4>
             <p class="element-content">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team">
             <img
               src="./images/team-card-third.jpg"
               alt="slightly smiling female worker with long brown hair, wears pink lipstick and pink sweater"
@@ -153,7 +149,7 @@
             <h4 class="element-header">Camila Garcia</h4>
             <p class="element-content">Marketing</p>
           </li>
-          <li>
+          <li class="team">
             <img
               src="./images/team-card-fourth.jpg"
               alt="slim smiling worker looking straight at the camera, has fine stubble and brown hair"
@@ -166,17 +162,15 @@
         </ul>
       </section>
     </main>
-    <footer class="container">
-      <div class="footer-background-color">
-        <a href="#" class="link logo">
-          <span class="logo-web">web</span>
-          <span class="logo-footer">studio</span>
-        </a>
-        <p class="element-content footer">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
+    <footer class="footer-background-color">
+      <a href="#" class="link logo">
+        web
+        <span class="logo-footer">studio</span>
+      </a>
+      <p class="element-content footer">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
     </footer>
   </body>
 </html>
