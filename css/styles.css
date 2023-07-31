@@ -6,6 +6,7 @@
   --slate: rgba(67, 68, 85, 1);
   --cloud: rgba(244, 244, 253, 1);
   --ocean: rgba(64, 75, 191, 1);
+  box-sizing: content-box;
 }
 
 body {
@@ -17,8 +18,9 @@ body {
 
 .container {
   width: 1158px;
-  margin: 0 auto;
+  margin: 0 297px;
   padding: 0 15px;
+  border: 0px;
 }
 
 .link {
@@ -37,7 +39,10 @@ body {
 
 .flex-header {
   display: flex;
-  align-items: baseline;
+  margin: 0 156px;
+ align-items: center;
+
+
 }
 
 .logo {
@@ -50,8 +55,6 @@ body {
   text-transform: uppercase;
   color: var(--iris);
   display: inline;
-  margin-top: 24px;
-  margin-left: 156px;
 }
 
 h1 {
@@ -89,6 +92,10 @@ address {
   color: var(--slate);
 font-weight: 400;
 
+}
+
+.contacts-flex {
+  margin-left: 0 940px;
 }
 
 .contacts:hover,
