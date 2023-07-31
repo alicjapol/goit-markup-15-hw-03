@@ -6,7 +6,6 @@
   --slate: rgba(67, 68, 85, 1);
   --cloud: rgba(244, 244, 253, 1);
   --ocean: rgba(64, 75, 191, 1);
-  box-sizing: content-box;
 }
 
 body {
@@ -16,6 +15,10 @@ body {
   background-color: var(--white);
 }
 
+img {
+
+display: block;
+}
 .container {
   width: 1158px;
   margin: 0 297px;
