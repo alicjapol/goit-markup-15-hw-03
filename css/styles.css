@@ -1,4 +1,3 @@
-
 :root {
   --white: rgba(255, 255, 255, 1);
   --cornflower: rgba(231, 233, 252, 1);
@@ -14,15 +13,13 @@ body {
   text-decoration: none;
   color: var(--slate);
   background-color: var(--white);
-  
 }
 
 .container {
-width: 1158px;
-margin-inline: auto;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-
-
 
 .link {
   font-size: 16px;
@@ -33,10 +30,14 @@ margin-inline: auto;
   letter-spacing: 0.02em;
 }
 
-  
 .link:hover,
 .link:focus {
-  color: var(--ocean)
+  color: var(--ocean);
+}
+
+.flex-header {
+  display: flex;
+  align-items: baseline;
 }
 
 .logo {
@@ -50,14 +51,11 @@ margin-inline: auto;
   color: var(--iris);
   display: inline;
   margin-top: 24px;
-  margin-left: 156px
-  
-
+  margin-left: 156px;
 }
 
 h1 {
-
-height: 600px;
+  height: 600px;
 }
 
 .logo-studio {
@@ -66,32 +64,40 @@ height: 600px;
 
 address {
   font-style: normal;
- }
+}
+
+.list.address {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: end;
+}
 
 .list {
   list-style: none;
 }
 
-
-
-
 .nav {
   font-weight: 500;
   line-height: 1.5;
-    display: inline-flex;
-padding-left: 76px;
-  gap: 40px
-
+  display: inline-flex;
+  padding-left: 76px;
+  gap: 40px;
 }
 
 .contacts {
   color: var(--slate);
+font-weight: 400;
+
 }
 
 .contacts:hover,
 .contacts:focus {
   color: var(--ocean);
 }
+
+
+
 
 h1.hero-header {
   font-size: 56px;
@@ -101,7 +107,11 @@ h1.hero-header {
   letter-spacing: 0.02em;
   color: var(--white);
   background-color: var(--navy-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .button.text {
   font-family: "Roboto", sans-serif;
@@ -114,44 +124,45 @@ h1.hero-header {
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 16px 32px;
+
 }
 
+
+
 .button.text:hover,
-  .button.text:focus {
-      color: var(--ocean);
-      background-color: var(--white);
-    }
+.button.text:focus {
+  color: var(--ocean);
+  background-color: var(--white);
+}
 
-    .element-header {
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 1.2;
-      letter-spacing: 0.02em;
-      color: var(--navy-blue)
-    }
+.element-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
 
-    .section-header {
-      font-size: 36px;
-      font-weight: 700;
-      line-height: 1.11;
-      text-align: center;
-      letter-spacing: 0.02em;
-      text-transform: capitalize;
-      color: var(--navy-blue);
-    
-    
-    }
+.section-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
 
-    .team {
-      background-color: var(--white);
-    }
+.team {
+  background-color: var(--white);
+}
 
- .element-content {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em
-   
-  }
+.element-content {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 .footer-background-color {
   background-color: var(--navy-blue);
@@ -159,32 +170,30 @@ h1.hero-header {
 
 .logo-footer {
   color: var(--cloud);
-  
 }
 
 .element-content.footer {
   color: var(--cloud);
   line-height: 1.5;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .button.menu {
   font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--iris);
-    background-color: var(--cloud);
-    border: 1px solid var(--cornflower);
-  
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
+
   border-radius: 4px;
 }
 
 .button.menu:active {
   color: var(--white);
   background-color: var(--ocean);
-
 }
 .button.menu:hover,
 .button.menu:focus {
