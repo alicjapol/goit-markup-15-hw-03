@@ -1,3 +1,113 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+html {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+body {
+  margin: 0;
+}
+hr {
+  height: 0;
+  color: inherit;
+}
+abbr[title] {
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+    monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+table {
+  text-indent: 0;
+  border-color: inherit;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+legend {
+  padding: 0;
+}
+progress {
+  vertical-align: baseline;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+summary {
+  display: list-item;
+}
+
 :root {
   --white: rgba(255, 255, 255, 1);
   --cornflower: rgba(231, 233, 252, 1);
@@ -16,8 +126,7 @@ body {
 }
 
 img {
-
-display: block;
+  display: block;
 }
 .container {
   width: 1158px;
@@ -43,9 +152,7 @@ display: block;
 .flex-header {
   display: flex;
   margin: 0 156px;
- align-items: center;
-
-
+  align-items: center;
 }
 
 .logo {
@@ -93,8 +200,7 @@ address {
 
 .contacts {
   color: var(--slate);
-font-weight: 400;
-
+  font-weight: 400;
 }
 
 .contacts-flex {
@@ -105,9 +211,6 @@ font-weight: 400;
 .contacts:focus {
   color: var(--ocean);
 }
-
-
-
 
 h1.hero-header {
   font-size: 56px;
@@ -122,7 +225,6 @@ h1.hero-header {
   align-items: center;
 }
 
-
 .button.text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -135,10 +237,7 @@ h1.hero-header {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 16px 32px;
-
 }
-
-
 
 .button.text:hover,
 .button.text:focus {
