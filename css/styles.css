@@ -150,9 +150,7 @@ img {
 }
 
 .flex-header {
-  display: flex;
-  margin: 0 156px;
-  align-items: center;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .logo {
@@ -164,7 +162,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  display: inline;
+  margin-right: 76px;
 }
 
 h1 {
@@ -190,11 +188,15 @@ address {
   list-style: none;
 }
 
+.flex-nav {
+  display: flex;
+  align-items: center;
+}
 .nav {
   font-weight: 500;
   line-height: 1.5;
-  display: inline-flex;
-  padding-left: 76px;
+  display: flex;
+  padding: 24px 0,;
   gap: 40px;
 }
 
