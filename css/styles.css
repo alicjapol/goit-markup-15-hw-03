@@ -129,10 +129,9 @@ img {
   display: block;
 }
 .container {
-  width: 1158px;
-  margin: 0 297px;
+  max-width: 1158px;
+  margin: 0 auto;
   padding: 0 15px;
-  border: 0px;
 }
 
 .link {
@@ -151,9 +150,13 @@ img {
 
 .flex-header {
   border-bottom: 1px solid var(--cornflower);
+  display: flex;
+justify-content: baseline;
 }
 
 .logo {
+  margin-right: 76px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -162,11 +165,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  margin-right: 76px;
-}
-
-h1 {
-  height: 600px;
 }
 
 .logo-studio {
@@ -177,72 +175,90 @@ address {
   font-style: normal;
 }
 
-.list.address {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  justify-content: end;
-}
-
 .list {
   list-style: none;
+}
+
+.address {
+display: flex;
+justify-content: flex-end;  
+align-items:flex-end;
+gap: 40px;
+
+}
+
+.nav {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .flex-nav {
   display: flex;
   align-items: center;
 }
-.nav {
-  font-weight: 500;
-  line-height: 1.5;
-  display: flex;
-  padding: 24px 0,;
-  gap: 40px;
-}
-
 .contacts {
   color: var(--slate);
   font-weight: 400;
+  display: block;
+margin: 24px auto;
 }
 
-.contacts-flex {
-  margin-left: 0 940px;
-}
 
 .contacts:hover,
 .contacts:focus {
   color: var(--ocean);
 }
 
-h1.hero-header {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--white);
+.phone {
+  display:block;
+}
+
+.email {
+  display: block;
+}
+
+.hero {
+  padding: 188px 0;
   background-color: var(--navy-blue);
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.button.text {
+h1.hero-header {
+  max-width: 496px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  background-color: var(--navy-blue);
+}
+
+.order {
+  display: block;
+ margin: 0 auto;
+  padding: 16px 32px;
+  
+  min-width: 169px;
+  height: 56px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
   color: var(--white);
   background-color: var(--iris);
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  padding: 16px 32px;
 }
 
-.button.text:hover,
-.button.text:focus {
+.order:hover,
+.order:focus {
   color: var(--ocean);
   background-color: var(--white);
 }
