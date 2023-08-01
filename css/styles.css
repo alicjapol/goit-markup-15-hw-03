@@ -128,10 +128,15 @@ body {
 img {
   display: block;
 }
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section {
+  padding: 120px 0;
 }
 
 .link {
@@ -182,7 +187,6 @@ address {
 .address {
 display: flex;
 justify-content: flex-end;  
-align-items:flex-end;
 gap: 40px;
 
 }
@@ -198,12 +202,12 @@ gap: 40px;
 .flex-nav {
   display: flex;
   align-items: center;
+  gap:40px;
 }
 .contacts {
   color: var(--slate);
   font-weight: 400;
   display: block;
-margin: 24px auto;
 }
 
 
@@ -214,10 +218,13 @@ margin: 24px auto;
 
 .phone {
   display:block;
+  margin:24px 0 24px 40px;
+
 }
 
 .email {
   display: block;
+margin:24px 0 24px 170px;
 }
 
 .hero {
@@ -225,9 +232,13 @@ margin: 24px auto;
   background-color: var(--navy-blue);
   display: flex;
   justify-content: center;
+  flex-direction: column;
+
 }
 
 h1.hero-header {
+  margin-right: auto;
+  margin-left: auto;
   max-width: 496px;
   font-size: 56px;
   font-weight: 700;
@@ -263,12 +274,29 @@ h1.hero-header {
   background-color: var(--white);
 }
 
+.list.first-section-studio {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.goals li {
+  width: calc((100% - 72px) / 4);
+}
+
+
 .element-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  display: flex;
+  flex-direction: row;
+}
+
+.project {
+  margin-top: 0px;
 }
 
 .section-header {
@@ -291,18 +319,29 @@ h1.hero-header {
   letter-spacing: 0.02em;
 }
 
+.footer-height{
+  max-height: 312px;
+  padding: 100px 15px ;
+}
+
 .footer-background-color {
   background-color: var(--navy-blue);
 }
 
 .logo-footer {
   color: var(--cloud);
+  display: inline-block;
+
+  
 }
 
-.element-content.footer {
-  color: var(--cloud);
+.element-content {
+color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  width: 264px;
+  margin-top: 16px;
 }
 
 .button.menu {
