@@ -165,7 +165,6 @@ p
   display: flex;
 justify-content: baseline;
 border-bottom: 1px solid var(--cornflower);
-border-bottom: 1158px;
 }
 
 .logo {
@@ -413,6 +412,8 @@ color: var(--slate);
 }
 
 .button.menu {
+  padding: 12px 24px 12px;
+  outline: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -421,7 +422,6 @@ color: var(--slate);
   color: var(--iris);
   background-color: var(--cloud);
   border: 1px solid var(--cornflower);
-
   border-radius: 4px;
 }
 
@@ -436,4 +436,26 @@ color: var(--slate);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.portfolio-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.menu-filters  {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.portfolio-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }

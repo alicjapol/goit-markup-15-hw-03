@@ -15,52 +15,51 @@
     />
   </head>
   <body>
-    <div class="container">
-    <header class="header">
-      <nav>
-        <a href="#" class="link logo">
-          web
-          <span class="logo-studio">studio</span>
-        </a>
-        <ul class="list nav">
-          <li>
-            <a href="./index.html" class="link">Studio</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="link">Portfolio</a>
-          </li>
-          <li>
-            <a href="" class="link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <ul class="list address">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link contacts">
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:+11(000)111-11-11" class="link contacts">
-              +11 (000) 111-11-11
-            </a>
-          </li>
-        </ul>
-      </address>
+    <header class="flex-header">
+      <div class="container flex-header">
+        <nav class="flex-nav">
+          <a href="#" class="link logo">
+            web
+            <span class="logo-studio">studio</span>
+          </a>
+          <ul class="list nav">
+            <li>
+              <a href="./index.html" class="link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="list address">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link contacts email">
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+11(000)111-11-11" class="link contacts phone">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>menu</h1>
-        <ul class="list">
+      <section class="portfolio-container">
+        <ul class="list menu-filters">
           <li><button type="button" class="button menu">All</button></li>
           <li><button type="button" class="button menu">Web Site</button></li>
           <li><button type="button" class="button menu">App</button></li>
           <li><button type="button" class="button menu">Design</button></li>
           <li><button type="button" class="button menu">Marketing</button></li>
         </ul>
-
-        <ul class="list">
+        <ul class="list portfolio-section">
           <li>
             <a class="link">
             <img
@@ -191,7 +190,7 @@
         </ul>
       </section>
     </main>
-    <footer class="footer-background-color">
+    <footer class="footer-background-color footer-height">
       <a href="#" class="link logo">
         web
         <span class="logo-footer">studio</span>
